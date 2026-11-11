@@ -1,4 +1,4 @@
-// File: C:\Users\User\.gemini\antigravity\scratch\mentorlagbe\client\src\app\(public)\page.tsx
+// File: C:\Users\User\.gemini\antigravity\scratch\mentorlagbe\mentorlagbe-client\src\app\(public)\page.tsx
 import * as entry from '../../../../src/app/(public)/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

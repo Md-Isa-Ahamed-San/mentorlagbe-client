@@ -1,1 +1,182 @@
-{"version":3,"caseSensitive":false,"basePath":"","rewrites":{"beforeFiles":[],"afterFiles":[],"fallback":[]},"redirects":[{"source":"/:path+/","destination":"/:path+","permanent":true,"internal":true,"regex":"^(?:\\/((?:[^\\/]+?)(?:\\/(?:[^\\/]+?))*))\\/$"}],"headers":[]}
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [
+    {
+      "page": "/tuitions/[id]",
+      "regex": "^/tuitions/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPid": "nxtPid"
+      },
+      "namedRegex": "^/tuitions/(?<nxtPid>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/dashboard",
+      "regex": "^/dashboard(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin",
+      "regex": "^/dashboard/admin(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/transactions",
+      "regex": "^/dashboard/admin/transactions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/transactions(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/tuitions",
+      "regex": "^/dashboard/admin/tuitions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/tuitions(?:/)?$"
+    },
+    {
+      "page": "/dashboard/admin/users",
+      "regex": "^/dashboard/admin/users(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/admin/users(?:/)?$"
+    },
+    {
+      "page": "/dashboard/profile",
+      "regex": "^/dashboard/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/profile(?:/)?$"
+    },
+    {
+      "page": "/dashboard/student",
+      "regex": "^/dashboard/student(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/student(?:/)?$"
+    },
+    {
+      "page": "/dashboard/student/my-applications",
+      "regex": "^/dashboard/student/my\\-applications(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/student/my\\-applications(?:/)?$"
+    },
+    {
+      "page": "/dashboard/student/saved-tuitions",
+      "regex": "^/dashboard/student/saved\\-tuitions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/student/saved\\-tuitions(?:/)?$"
+    },
+    {
+      "page": "/dashboard/tutor",
+      "regex": "^/dashboard/tutor(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/tutor(?:/)?$"
+    },
+    {
+      "page": "/dashboard/tutor/applicants",
+      "regex": "^/dashboard/tutor/applicants(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/tutor/applicants(?:/)?$"
+    },
+    {
+      "page": "/dashboard/tutor/my-tuitions",
+      "regex": "^/dashboard/tutor/my\\-tuitions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/tutor/my\\-tuitions(?:/)?$"
+    },
+    {
+      "page": "/dashboard/tutor/post-tuition",
+      "regex": "^/dashboard/tutor/post\\-tuition(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/dashboard/tutor/post\\-tuition(?:/)?$"
+    },
+    {
+      "page": "/payment/cancel",
+      "regex": "^/payment/cancel(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/payment/cancel(?:/)?$"
+    },
+    {
+      "page": "/payment/success",
+      "regex": "^/payment/success(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/payment/success(?:/)?$"
+    },
+    {
+      "page": "/pricing",
+      "regex": "^/pricing(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pricing(?:/)?$"
+    },
+    {
+      "page": "/sign-in",
+      "regex": "^/sign\\-in(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sign\\-in(?:/)?$"
+    },
+    {
+      "page": "/sign-up",
+      "regex": "^/sign\\-up(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sign\\-up(?:/)?$"
+    },
+    {
+      "page": "/tuitions",
+      "regex": "^/tuitions(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/tuitions(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

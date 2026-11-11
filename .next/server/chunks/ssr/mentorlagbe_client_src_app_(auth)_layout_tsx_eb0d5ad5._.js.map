@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/User/.gemini/antigravity/scratch/mentorlagbe/client/src/app/%28auth%29/layout.tsx"],"sourcesContent":["import React from 'react';\n\nexport default function AuthLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <div className=\"min-h-screen flex items-center justify-center bg-slate-50 dark:bg-[#090D16] p-4 sm:p-6\">\n      {children}\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;;AAEe,SAAS,WAAW,EAAE,QAAQ,EAAiC;IAC5E,qBACE,uQAAC;QAAI,WAAU;kBACZ;;;;;;AAGP","debugId":null}}]
-}

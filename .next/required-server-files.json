@@ -120,7 +120,7 @@
         "transform": "lodash/{{member}}"
       }
     },
-    "outputFileTracingRoot": "C:\\Users\\User\\.gemini\\antigravity\\scratch\\",
+    "outputFileTracingRoot": "C:\\Users\\User",
     "experimental": {
       "useSkewCookie": false,
       "cacheLife": {
@@ -309,11 +309,11 @@
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
     "turbopack": {
-      "root": "C:\\Users\\User\\.gemini\\antigravity\\scratch\\"
+      "root": "C:\\Users\\User"
     }
   },
-  "appDir": "C:\\Users\\User\\.gemini\\antigravity\\scratch\\mentorlagbe\\client",
-  "relativeAppDir": "mentorlagbe\\client",
+  "appDir": "C:\\Users\\User\\.gemini\\antigravity\\scratch\\mentorlagbe\\mentorlagbe-client",
+  "relativeAppDir": ".gemini\\antigravity\\scratch\\mentorlagbe\\mentorlagbe-client",
   "files": [
     ".next\\routes-manifest.json",
     ".next\\server\\pages-manifest.json",
