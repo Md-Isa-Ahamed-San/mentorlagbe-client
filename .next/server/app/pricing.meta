@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(public)/layout,_N_T_/(public)/pricing/layout,_N_T_/(public)/pricing/page,_N_T_/pricing"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/7b16373d200efd8833e02659b417fea9b468df16f1fa48d782e7c465ac701546/$/pricing",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(public)/pricing/page"
+    },
+    "isFallback": false
+  }
+}

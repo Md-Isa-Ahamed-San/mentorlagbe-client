@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dashboard/layout,_N_T_/dashboard/tutor/layout,_N_T_/dashboard/tutor/my-tuitions/layout,_N_T_/dashboard/tutor/my-tuitions/page,_N_T_/dashboard/tutor/my-tuitions"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/deff3c7e43f09f8795ce67844db2aca71c89c54329353cc48b30248cb016b4c4/$/dashboard/tutor/my-tuitions",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/dashboard/tutor/my-tuitions/page"
+    },
+    "isFallback": false
+  }
+}

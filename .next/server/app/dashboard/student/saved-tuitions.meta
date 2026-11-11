@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dashboard/layout,_N_T_/dashboard/student/layout,_N_T_/dashboard/student/saved-tuitions/layout,_N_T_/dashboard/student/saved-tuitions/page,_N_T_/dashboard/student/saved-tuitions"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/7b4c32fce10d01ef973b6fb9649477897c8dfbe151340009d52ba0eee49af11a/$/dashboard/student/saved-tuitions",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/dashboard/student/saved-tuitions/page"
+    },
+    "isFallback": false
+  }
+}

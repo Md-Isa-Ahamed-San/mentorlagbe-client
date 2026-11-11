@@ -1,0 +1,7 @@
+{
+  "/(auth)/sign-in/page": "app/(auth)/sign-in/page.js",
+  "/dashboard/profile/page": "app/dashboard/profile/page.js",
+  "/dashboard/tutor/applicants/page": "app/dashboard/tutor/applicants/page.js",
+  "/dashboard/tutor/my-tuitions/page": "app/dashboard/tutor/my-tuitions/page.js",
+  "/dashboard/tutor/post-tuition/page": "app/dashboard/tutor/post-tuition/page.js"
+}

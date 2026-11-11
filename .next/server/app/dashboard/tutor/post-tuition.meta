@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dashboard/layout,_N_T_/dashboard/tutor/layout,_N_T_/dashboard/tutor/post-tuition/layout,_N_T_/dashboard/tutor/post-tuition/page,_N_T_/dashboard/tutor/post-tuition"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/849fd9f04320e93756296a49030cdba6d59b82196dc6d04a2204f65f638a2e51/$/dashboard/tutor/post-tuition",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/dashboard/tutor/post-tuition/page"
+    },
+    "isFallback": false
+  }
+}

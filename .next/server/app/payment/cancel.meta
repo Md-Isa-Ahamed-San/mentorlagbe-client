@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(public)/layout,_N_T_/(public)/payment/layout,_N_T_/(public)/payment/cancel/layout,_N_T_/(public)/payment/cancel/page,_N_T_/payment/cancel"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/ecec516cf856f9c6d07ebb3f2df03cea1ae0b6cd5b82d212e636e112c52d846b/$/payment/cancel",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(public)/payment/cancel/page"
+    },
+    "isFallback": false
+  }
+}

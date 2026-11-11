@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/dashboard/layout,_N_T_/dashboard/tutor/layout,_N_T_/dashboard/tutor/page,_N_T_/dashboard/tutor"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/1ce2895f1d05b385ba97e7e88946e17359e4c18fcf745e26e38a996cff2956f0/$/dashboard/tutor",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/dashboard/tutor/page"
+    },
+    "isFallback": false
+  }
+}

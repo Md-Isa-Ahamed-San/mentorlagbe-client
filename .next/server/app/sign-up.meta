@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/(auth)/layout,_N_T_/(auth)/sign-up/layout,_N_T_/(auth)/sign-up/page,_N_T_/sign-up"
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/32d270e3e12b05e5358ecda3a37eb0d5b3a04c4480179cd2e390a1814bea73bd/$/sign-up",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/(auth)/sign-up/page"
+    },
+    "isFallback": false
+  }
+}

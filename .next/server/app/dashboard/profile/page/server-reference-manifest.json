@@ -1,0 +1,20 @@
+{
+  "node": {
+    "40e86f96155b9a3907ce2ca8e0f34daf6fc68bd5a7": {
+      "workers": {
+        "app/dashboard/profile/page": {
+          "moduleId": "[project]/mentorlagbe/client/.next-internal/server/app/dashboard/profile/page/actions.js { ACTIONS_MODULE0 => \"[project]/mentorlagbe/client/src/actions/profile.actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "updateProfileAction",
+          "filename": "mentorlagbe/client/src/actions/profile.actions.ts"
+        }
+      },
+      "layer": {
+        "app/dashboard/profile/page": "action-browser"
+      },
+      "exportedName": "updateProfileAction",
+      "filename": "mentorlagbe/client/src/actions/profile.actions.ts"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "/dashboard/tutor/post-tuition/page": [
+      "static/chunks/[root-of-the-server]__1281d2d0._.css",
+      "static/chunks/7c23b_4c6ef1b1._.js",
+      "static/chunks/mentorlagbe_client_src_d9481c3e._.js",
+      "static/chunks/mentorlagbe_client_src_app_layout_tsx_577a443e._.js",
+      "static/chunks/mentorlagbe_client_d8c1380b._.js",
+      "static/chunks/mentorlagbe_client_src_app_error_tsx_113e0f2e._.js",
+      "static/chunks/7c23b_next_dist_22e31759._.js",
+      "static/chunks/mentorlagbe_client_src_app_not-found_tsx_113e0f2e._.js",
+      "static/chunks/7c23b_next_dist_client_components_builtin_global-error_113e0f2e.js",
+      "static/chunks/mentorlagbe_client_7b18ad51._.js",
+      "static/chunks/mentorlagbe_client_src_app_dashboard_layout_tsx_113e0f2e._.js",
+      "static/chunks/mentorlagbe_client_src_57f8bd24._.js",
+      "static/chunks/7c23b_4bbf597e._.js",
+      "static/chunks/mentorlagbe_client_src_app_dashboard_tutor_post-tuition_page_tsx_5241940b._.js",
+      "static/chunks/[turbopack]_browser_dev_hmr-client_hmr-client_ts_ae9ed4fc._.js",
+      "static/chunks/7c23b_next_dist_compiled_react-dom_67ba4115._.js",
+      "static/chunks/7c23b_next_dist_compiled_next-devtools_index_79555d48.js",
+      "static/chunks/7c23b_next_dist_compiled_2a09579c._.js",
+      "static/chunks/7c23b_next_dist_client_562cfd08._.js",
+      "static/chunks/7c23b_next_dist_c2e18646._.js",
+      "static/chunks/7c23b_@swc_helpers_cjs_73f3b8a5._.js",
+      "static/chunks/mentorlagbe_client_a0ff3932._.js",
+      "static/chunks/turbopack-mentorlagbe_client_3f8605e7._.js"
+    ]
+  }
+}
