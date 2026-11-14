@@ -53,7 +53,7 @@ export default function AdminOverviewPage() {
             />
           ))}
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="hidden grid-cols-1 lg:grid-cols-2 gap-6" hidden>
           <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 h-80" />
           <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 h-80" />
         </div>
@@ -137,7 +137,7 @@ export default function AdminOverviewPage() {
       </div>
 
       {/* Analytics Charts Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="hidden grid-cols-1 lg:grid-cols-2 gap-6" hidden>
         {/* Tuition Moderation Status Chart */}
         <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-xs flex flex-col justify-between">
           <div>

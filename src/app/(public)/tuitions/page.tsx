@@ -197,7 +197,7 @@ function TuitionsContent() {
         </form>
 
         {/* Filters Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3 pt-2 border-t border-slate-100 dark:border-slate-800">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2 border-t border-slate-100 dark:border-slate-800">
           {/* Subject Dropdown */}
           <div>
             <label className="text-xs font-semibold text-slate-500 dark:text-slate-400 block mb-1">
@@ -267,8 +267,8 @@ function TuitionsContent() {
             </select>
           </div>
 
-          {/* Sort Dropdown */}
-          <div>
+          {/* Sort Dropdown (Hidden) */}
+          <div className="hidden" hidden>
             <label className="text-xs font-semibold text-slate-500 dark:text-slate-400 block mb-1">
               Sort By
             </label>
@@ -310,7 +310,7 @@ function TuitionsContent() {
           Showing <span className="font-semibold text-slate-800 dark:text-slate-200 font-mono">{tuitions.length}</span> of{' '}
           <span className="font-semibold text-slate-800 dark:text-slate-200 font-mono">{totalCount}</span> tuitions
         </span>
-        {(search || subject !== 'All' || classLevel !== 'All' || mode !== 'All' || sort) && (
+        {(search || subject !== 'All' || classLevel !== 'All' || mode !== 'All') && (
           <span className="rounded-full bg-teal-500/10 text-teal-700 dark:text-teal-300 px-2.5 py-0.5 text-[11px] font-medium border border-teal-500/20">
             Active filters applied
           </span>

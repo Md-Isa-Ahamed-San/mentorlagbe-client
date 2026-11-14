@@ -24,12 +24,12 @@ export default function StudentLoading() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-        <div className="lg:col-span-2 rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-xs h-80 flex flex-col justify-between">
+      <div className="grid grid-cols-1 gap-6">
+        <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-xs h-80 flex flex-col justify-between">
           <div className="h-5 w-48 rounded bg-slate-200 dark:bg-slate-800" />
           <div className="h-52 w-full rounded-xl bg-slate-100 dark:bg-slate-800/50" />
         </div>
-        <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-xs h-80 flex flex-col justify-between">
+        <div className="hidden rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-xs h-80 flex flex-col justify-between" hidden>
           <div className="h-5 w-36 rounded bg-slate-200 dark:bg-slate-800" />
           <div className="h-48 w-48 rounded-full bg-slate-100 dark:bg-slate-800/50 mx-auto" />
         </div>

@@ -24,7 +24,7 @@ export default function AdminLoading() {
         ))}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="hidden grid-cols-1 lg:grid-cols-2 gap-6" hidden>
         <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-6 shadow-xs h-80 flex flex-col justify-between">
           <div className="h-5 w-44 rounded bg-slate-200 dark:bg-slate-800" />
           <div className="h-56 w-full rounded-xl bg-slate-100 dark:bg-slate-800/50" />
